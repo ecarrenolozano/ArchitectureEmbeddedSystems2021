@@ -1,0 +1,5 @@
+VERSION:3 SOURCE_TIMESTAMP:52A582E1
+NODE:I LEVEL:0 LINE:24 "C:\cvavreval\inc\mega8515.h"
+NODE:V LEVEL:0 LINE:28 "led_status -> R5"
+NODE:F LEVEL:0 LINE:31 "timer1_ovf_isr(void)"
+NODE:F LEVEL:0 LINE:50 "main(void)"

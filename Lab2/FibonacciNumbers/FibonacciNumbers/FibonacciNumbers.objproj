@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Object</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>7.0</ProjectVersion>
+    <ProjectGuid>5cc9080b-d630-4ca0-b0f0-02af75771899</ProjectGuid>
+    <avrdeviceseries>none</avrdeviceseries>
+    <avrdevice>ATmega328</avrdevice>
+    <avrtool>
+    </avrtool>
+    <OutputFileName>FibonacciNumbers</OutputFileName>
+    <OutputFileExtension>.cof</OutputFileExtension>
+    <OutputDirectory>C:\Users\Edwin\Documents\FibonacciNumbers\Obj</OutputDirectory>
+    <ObjectProjectType>True</ObjectProjectType>
+    <MD5HashValue>CA0FD52A9B7C6BEE8E9B820D15F9C7DF</MD5HashValue>
+    <RootFolderCreationPattern>OptimizedRoot</RootFolderCreationPattern>
+    <IsObjLinkFile>True</IsObjLinkFile>
+    <UseGdb>false</UseGdb>
+    <UseGdbCustomPath>false</UseGdbCustomPath>
+    <GdbCustomPath>
+    </GdbCustomPath>
+    <AsfFrameworkConfig>
+      <framework-data xmlns="">
+  <options />
+  <configurations />
+  <files />
+  <documentation help="" />
+  <offline-documentation help="" />
+  <dependencies>
+    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.49.1" />
+  </dependencies>
+</framework-data>
+    </AsfFrameworkConfig>
+    <KeepTimersRunning>true</KeepTimersRunning>
+    <OverrideVtor>false</OverrideVtor>
+    <CacheFlash>true</CacheFlash>
+    <ProgFlashFromRam>true</ProgFlashFromRam>
+    <RamSnippetAddress />
+    <UncachedRange />
+    <preserveEEPROM>true</preserveEEPROM>
+    <OverrideVtorValue />
+    <BootSegment>2</BootSegment>
+    <ResetRule>0</ResetRule>
+    <eraseonlaunchrule>0</eraseonlaunchrule>
+    <EraseKey />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+  </PropertyGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\Vs\FakeObjProjects.targets" />
+  <ItemGroup>
+    <Compile Include="C:\Users\Edwin\Documents\FibonacciNumbers\fibonacciNumbers.c">
+      <SubType>compile</SubType>
+      <FilePathFromObjectFile>C:\Users\Edwin\Documents\FibonacciNumbers\fibonacciNumbers.c</FilePathFromObjectFile>
+      <AliasFilePath>C:\Users\Edwin\Documents\FibonacciNumbers\fibonacciNumbers.c</AliasFilePath>
+      <Link>fibonacciNumbers.c</Link>
+    </Compile>
+  </ItemGroup>
+</Project>
